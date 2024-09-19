@@ -1,0 +1,75 @@
+body {
+    background-color: #373f41;
+    margin: 0; /* Remove default margin */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.to-do-app {
+    width: 400px; /* Set a fixed width */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: 1px solid #6aa1a1;
+}
+
+.to-do-app h2 {
+    padding: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center; /* Center text */
+}
+
+.to-do-app button {
+    width: 100%; /* Full width of container */
+    padding: 10px;
+    border: 1px solid #6aa1a1;
+    border-radius: 5px;
+    background-color: rgb(61, 47, 47);
+    cursor: pointer;
+    color: white;
+    margin: 5px 0; /* Add margin between buttons */
+}
+
+.to-do-app button:hover {
+    background-color: rgb(255, 255, 255, 0.1);
+    color: black;
+}
+
+.to-do-list {
+    margin-top: 20px; /* Add space between to-do app and list */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    background-color: whitesmoke;
+    width: 100%; /* Full width of container */
+    max-width: 400px; /* Max width */
+}
+
+.to-do-list li {
+    font-size: small;
+    background-color: #706579;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for list items */
+}
+
+.to-do-app input {
+    width: calc(100% - 22px); /* Adjust width to fit within container */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #706579;
+}
+.container h3{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
